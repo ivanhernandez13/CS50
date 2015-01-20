@@ -1,0 +1,19 @@
+0.  3
+1.  GIF
+2.  Lossy throws away information to reduce file size that results in loss of quality after every save. Lossless reduces size but keeps the information intact so a file can be saved over and over with losing quality.
+3.  JPEG
+4.  The pointer or link to the file is destroyed and the space is marked as "free" space to the operating system.
+5.  Overwrite the data on your harddrive with null characters (0) with commercial software and/or something like secure disk format.
+6.  It is the header file that holds all the fixed width types such as uint8_t.
+7.  To specify exactly how many bits you want.
+8.  A BYTE is 1 byte, a DWORD is 4 bytes, a LONG is 4 bytes, and a WORD is 2 bytes.
+9.  0x42 0x4D
+10. bfsize is the total file size of the bmp, bisize is only the number of bytes used by the bitmap image itself.
+11. If negetive then it is known as top down. The origin is also in the upper left, and must be uncompressed.
+12. biBitcount
+13. If the user does not have write permissions for the file.
+14. Because we are only writing 1 thing at a time.
+15. 3
+16. It sets the position in the file for the data to be written.
+17. SEEK_CUR sets the current position as the origin point for fseek.
+18. Mila Banana

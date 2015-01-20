@@ -1,0 +1,14 @@
+0.  According to Merriam-Webster's Medical Dictionary,
+pneumonoultramicroscopicsilicovolcanoconiosis is a
+pneumoconiosis caused by inhalation of very fine
+silicate or quartz dust.
+1.  getrusage()  returns  resource usage measures
+2.  16
+3.  To avoid any problems that may occur due to casting or any changes that happen when copying the value.
+4.  Main used fgetc to get a chracter at a time from the previosuly stored "fp" file. It then checks if the character is a letter with "isalpha" or an apostrophe. If is it adds the letter to the char "word" unless the length of the word is longer then "length". Words with numbers are skipped over as well. When a word is found and no more characters are found then the current word is terminated and a counter is increased to indicate a word was found. That word is then checked to see if it is mispelled with the check function. If the word is mispelled then another counter named mispellings is incremented.
+5.  fgetc allows you to read a char at a time and check for any mistakes every step of the way such as finding digits and then skipping the entire word. fscanf does not and as a result there is greater room for error.
+6.  Prevents the program from changing the contents of both chars thus adding some security to the program.
+7.  I used a hash table composed of an array of structs each containing a struct with a char value and a pointer to the next node.
+8.  Very slow, I deleted the initial benchmarks but I made the mistake of traversing through the entire list that had same key (first letter) rather then terminating early if the second key (second letter) of the word in the list was already past the second letter of the word being searched for.
+9.  I terminated the search early if finding the current word was impossible (list was sorted).
+10. I could not figure out why when freeing memory of my hash table, my algorithm would not free the initial values (first values after the head) I declared although they were part of the linked list. I ended up just adding more pointers to those values and freeing those with the new pointers.
