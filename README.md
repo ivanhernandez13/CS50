@@ -1,5 +1,5 @@
 # CS50
-pset1 - Loops
+pset1 - Loops\n
 pset2 - Cryptography
 pset3 - Bubble, Insertion and Selection Sort, Algorithm Design
 pset4 - Using C with a GUI library
